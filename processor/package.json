@@ -1,0 +1,18 @@
+{
+  "name": "blockchain-processor",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sawtooth-sdk": "^1.0.1"
+  },
+  "devDependencies": {
+    "request": "^2.81.0"
+  }
+}
