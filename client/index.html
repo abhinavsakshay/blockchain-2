@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Transfer Chain</title>
+</head>
+<body>
+<h1>Sawtooth block chain</h1>
+
+<h2>Select User</h2>
+<select name="keySelect">
+  <option value="none" selected>Select public key...</option>
+  <option value="new">Create new key pair</option>
+</select>
+
+<h2>Create Patient</h2>
+<input id="createName" type="text" placeholder="Enter patient name...">
+<input id="createAge" type="number" placeholder="Enter patient age...">
+
+<input id="createSubmit" type="button" value="Create">
+
+<h2>Get patients</h2>
+<input id="getState" type="button" value="get">
+<div id="name"></div>
+
+
+<script src="dist/bundle.js"></script>
+</body>
+</html>
